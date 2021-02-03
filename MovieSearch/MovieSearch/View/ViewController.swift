@@ -129,7 +129,11 @@ extension ViewController: SearchMovieViewModalDelegate {
     }
     
     func onFetchFailed(with reason: String) {
-        
+          DispatchQueue.main.async{
+        let alert = UIAlertController(title: "Alert", message: reason, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        }
     
     }
     

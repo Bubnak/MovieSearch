@@ -59,7 +59,7 @@ class SearchMovieViewModal{
                 })
             self.delegate?.onFetchCompleted(with: arrTitle, andUrl: arrUrl, imdbID:arrImdbID)
             case .failure(let err):
-                self.delegate?.onFetchFailed(with: "Failed to search movie")
+                self.delegate?.onFetchFailed(with:err.localizedDescription)
                 print("Failed to fetch :", err)
             }
         }
