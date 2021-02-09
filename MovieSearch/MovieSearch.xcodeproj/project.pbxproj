@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				15AB914625D2D6140001F382 /* Resources */,
-				15AB914525D2D60B0001F382 /* ModalTests */,
+				15AB914525D2D60B0001F382 /* ModelTests */,
 				15AB914325D2D5EA0001F382 /* NetworkTests */,
 				15AB913B25D2D5BC0001F382 /* MovieSearchTests.swift */,
 				15AB913D25D2D5BC0001F382 /* Info.plist */,
@@ -102,12 +102,12 @@
 			path = NetworkTests;
 			sourceTree = "<group>";
 		};
-		15AB914525D2D60B0001F382 /* ModalTests */ = {
+		15AB914525D2D60B0001F382 /* ModelTests */ = {
 			isa = PBXGroup;
 			children = (
 				15AB914925D2D6230001F382 /* ModelTests.swift */,
 			);
-			path = ModalTests;
+			path = ModelTests;
 			sourceTree = "<group>";
 		};
 		15AB914625D2D6140001F382 /* Resources */ = {
